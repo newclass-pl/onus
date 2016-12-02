@@ -12,7 +12,7 @@
  */
 
 
-namespace Test\DependencyInjection;
+namespace Test\Onus;
 
 use Onus\ClassLoader;
 use Onus\InvalidTypeException;
@@ -27,7 +27,7 @@ use Test\Asset\StandaloneClass;
  * @package Test\DependencyInjection
  * @author Michal Tomczak (michal.tomczak@newclass.pl)
  */
-class DependencyInjectionTest extends \PHPUnit_Framework_TestCase{
+class ClassLoaderTest extends \PHPUnit_Framework_TestCase{
 
     /**
      *
